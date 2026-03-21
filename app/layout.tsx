@@ -25,17 +25,18 @@ export default function RootLayout({
         <GoogleAnalytics />
       </head>
       <body className="flex flex-col min-h-screen border-b-uclaBlue border-b-[12px]">
-        <div className="w-full py-2 bg-green-500 select-none">
+        <div className="w-full py-2 bg-[#ff6600] select-none">
           <Marquee autoFill pauseOnHover speed={20}>
             <p className="px-12 uppercase font-bold">
-              🚦Help make Westwood Blvd safer:{" "}
+              🚀 We are now backed by Y Combinator:{" "}
               <a
-                href="https://winstli.com/westwood?utm_source=uclagrades.com"
+                href="https://www.linkedin.com/posts/activity-7439351142410670082-adcp"
+                target="_blank"
                 className="underline"
               >
-                Show Your Support
+                Please Comment a Rocket Emoji
               </a>{" "}
-              🚦
+              🚀
             </p>
           </Marquee>
         </div>
